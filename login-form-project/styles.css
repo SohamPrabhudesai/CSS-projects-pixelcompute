@@ -69,14 +69,12 @@ body {
 
 #loginBtn {
   background-color: black;
-  border-bottom-color: white;
-  border-right-color: white;
+  box-shadow: 1px 1px white;
   color: white;
 }
 #resetBtn {
   background-color: lightgray;
-  border-bottom-color: black;
-  border-right-color: black;
+  box-shadow: 1px 1px black;
   color: black;
   font-weight: bold;
 }
