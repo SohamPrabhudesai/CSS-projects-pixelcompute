@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Login Form project</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <a class="nav-links" href="#">Home</a>
+      <a class="nav-links" href="#">Services</a>
+      <a class="nav-links" href="#">Products</a>
+      <a class="nav-links" href="#">Contact Us</a>
+    </nav>
+    <div class="form-container">
+      <h1>Login Form</h1>
+      <div>
+        <img
+          class="profile-picture"
+          src="https://ik.imagekit.io/d9mvewbju/Course/BigbinaryAcademy/profile-image-css-login-page-project_tS9W4AV3q.png"
+          alt="Profile Picture"
+        />
+      </div>
+      <form action="#">
+        <div class="form-group">
+          <div class="form-element">
+            <label for="username">Username</label>
+            <input
+              type="text"
+              id="username"
+              name="username"
+              placeholder="Enter Username"
+            />
+          </div>
+          <div class="form-element">
+            <label for="password">Password</label>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder="Enter Password"
+            />
+          </div>
+          <input id="loginBtn" type="submit" value="Login" />
+          <div class="form-element">
+            <input type="radio" name="remember" id="remember" />
+            <label for="remember">Remember me</label>
+          </div>
+          <a class="forgot-password" href="#">Forgot Password</a>
+          <input id="resetBtn" type="reset" value="Cancel" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
