@@ -30,7 +30,13 @@ nav {
   font-size: medium;
   text-decoration: none;
 }
-
+.brand a{
+    color: white;
+    text-decoration: none;
+}
+.brand a:visited{
+    text-decoration: none;
+}
 .navLinks {
   display: flex;
   justify-content: space-evenly;
